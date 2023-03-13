@@ -170,7 +170,12 @@ textarea {
   width: 92%;
 
 }
-
+@media only screen and (max-width: 56.25em) {
+  .main-container {
+    max-width: 94vw;
+  
+  }
+}
 .btn {
   background: #fff;
   color: #333;
@@ -828,7 +833,7 @@ textarea {
 }
 
 .header__sm-menu {
-  background: #fff;
+  background: #cdcdcd;
   position: absolute;
   width: 100%;
   top: 100%;
@@ -980,6 +985,12 @@ textarea {
   border-radius: 5px;
   font-weight: 600;
   color: #777;
+}
+
+@media only screen and (max-width: 56.25em) {
+  .skills {
+    flex-wrap: wrap;
+  }
 }
 
 .mouse {
