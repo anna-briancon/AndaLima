@@ -662,7 +662,6 @@ textarea {
 .project-details__content {
   padding: 8rem 0;
   max-width: 90rem;
-  margin: auto;
 }
 
 .project-details__content-title {
@@ -1347,4 +1346,33 @@ color: #ffffff;
   input[type='text'], [type='email'], select, textarea {
     font-size: 0.875em;
   }
+}
+
+#bdx {
+  position: relative; 
+  width: 100%;
+  height: 30vh; 
+  margin-bottom: 5%;
+}
+
+#bdx_background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1; 
+}
+
+#bdx_content {
+  position: absolute; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../assets/bordeaux.jpeg');
+  background-size: cover;
+  background-position:25% 40%;
+  background-repeat: no-repeat;
 }
